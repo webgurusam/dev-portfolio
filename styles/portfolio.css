@@ -101,7 +101,8 @@ nav ul li {
 }
 
 /* main styles */
-main {
+main,
+.contact {
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -198,4 +199,46 @@ main {
 
 .resume-btn {
     margin: 50px 40% 0;
+}
+
+/* contact section styles */
+.contact-bg {
+    background: #FFF8F3;
+}
+
+.contact {
+    display: flex;
+    gap: 100px;
+    padding: 130px 200px;
+}
+
+.contact .section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.contact .section-description {
+    color: #474747;
+    margin: 20px 0 30px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.contact-form {
+    margin-top: 8px;
+}
+
+
+input[type=email],
+input[type=text],
+textarea {
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 18px 0 18px 30px;
+    color: #757575;
+    border: 0;
 }
