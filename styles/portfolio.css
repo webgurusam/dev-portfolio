@@ -33,15 +33,26 @@ hr {
     color: #FD6E0A;
 }
 
+.btns {
+    display: flex;
+    gap: 30px;
+}
+
 .btn-primary {
     color: #fff;
     background-color: #FD6E0A;
     border: 0;
     font-weight: 700;
     font-size: 20px;
-    height: 64px;
-    padding: 18px 35px;
+    padding: 18px 20px;
     border-radius: 5px;
+    width: 190px;
+}
+
+.contact-btn {
+    background-color: transparent;
+    color: #FD6E0A;
+    border: 1px solid #FD6E0A;
 }
 
 .header {
